@@ -1,0 +1,198 @@
+body {
+    margin: 0px;
+
+}
+
+span {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans Unicode';
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    color: rgb(159, 164, 168);
+    text-align: end;
+}
+
+hr {
+    height: 1px;
+    background-color: blueviolet;
+}
+
+nav {
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgb(199, 198, 198);
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px gainsboro;
+
+}
+
+nav a {
+    color: rgb(60, 61, 58);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    margin: 1px;
+
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 5cm;
+}
+
+
+
+.main a {
+    margin-left:10px;
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+    
+    text-decoration: none;
+    display: flex;
+    align-items: last baseline;
+
+}
+header {
+    padding: 8px;
+    height: 15px;
+    color: white;
+    background-color: rgb(173, 41, 41);
+
+}
+
+aside {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 4px;
+    border-radius: 20px;
+    
+}
+.left {
+    background-image: url(/img/econ2.jpg);
+    height: 500px;
+    width: 1100px;
+    float: left;
+}
+
+.rightup {
+    background-image: url(/img/cure.jpg);
+    height: 250px;
+    float: right;
+    width: 40%;
+}
+
+.rightdown {
+    background-image: url(/img/housing.jpg);
+    background-color: rgb(11, 144, 189);
+    float: right;
+    width: 40%;
+    height: 240px;
+    
+}
+.left2 {
+    background-image: url(/img/fashion.jpg);
+    height:190px;
+    width: 20%;
+    float: left;
+}
+
+.rightup2 {
+    background-image: url(/img/spice.jpg);
+    height: 190px;
+    float: right;
+    width:78%;
+}
+
+.leftup{
+    background-image: url(/img/weather.jpg);
+    background-color: black;
+    float: left;
+    height: 250px;
+    width: 39%;
+}
+.leftdown{
+    background-image:url(/img/traffic.jpg);
+    background-color: black;
+    float: left;
+    height: 250px;
+    width: 39%;
+}
+.right3{
+    background-image: url(/img/cup.jpg);
+    height: 500px;
+    width: 59%;
+    float: right;
+    background-color: blue;
+
+}
+section{
+    background-image: url(/img/tax.jpg);
+    height: 100px;
+    background-color: brown;
+    clear: both;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    margin: 4px;
+    border-radius: 20px;
+}
+.rightup3 {
+    background-image: url(/img/theatre.jpg);
+    height: 500px;
+    width:22%;
+    float: right;
+    background-color: blue;
+}
+.rightup4 {
+    background-image: url(/img/festive.jpg);
+    height: 500px;
+    width:22%;
+    float: right;
+    background-color: blue;
+}
+.left3{background-image: url(/img/mars.jpg);
+    height: 500px;
+    width:53.5%;
+    float: left;
+    background-color: blue;
+}
+div{
+    height:1000px;
+}
+
+footer{
+    text-align: center;
+    margin-right: 5px;
+}
+footer li{
+    list-style: none;
+    
+    display: inline;
+     justify-content: space-between;
+
+}
+footer a{
+    color: rgb(60, 61, 58);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  
+    
+    
+}
+.al{
+    padding: 10px;
+    text-align: right;
+}
