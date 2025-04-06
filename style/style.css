@@ -75,6 +75,7 @@ aside {
     background-size: cover;
     margin: 4px;
     border-radius: 20px;
+    box-shadow:3px 3px 3px gainsboro;
     
     
 }
@@ -146,6 +147,7 @@ section{
     background-size: contain;
     margin: 4px;
     border-radius: 20px;
+    box-shadow: 3px 3px 3px gainsboro;
 }
 .rightup3 {
     background-image: url(/img/theatre.jpg);
