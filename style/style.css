@@ -57,12 +57,10 @@ nav li {
     padding: 10px;
     font-size: 40px;
     color: white;
-    
     text-decoration: none;
-    display: flex;
-    align-items: last baseline;
+    }
 
-}
+
 header {
     padding: 8px;
     height: 15px;
@@ -77,6 +75,7 @@ aside {
     background-size: cover;
     margin: 4px;
     border-radius: 20px;
+    
     
 }
 .left {
@@ -195,4 +194,9 @@ footer a{
 .al{
     padding: 10px;
     text-align: right;
+}
+.align{
+    display: flex;
+    justify-content: start;
+    align-items: end;
 }
